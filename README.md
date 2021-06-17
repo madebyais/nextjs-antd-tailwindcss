@@ -20,10 +20,10 @@ For base css style, you can go to [TailwindCSS](https://tailwindcss.com/) docume
 
 ### Getting Started
 
-First, install dependencies:
+First, install dependencies and rename the env local example:
 
 ```bash
-yarn install
+yarn install && mv .env.local.example .env.local
 ```
 
 Second, run the development server:
