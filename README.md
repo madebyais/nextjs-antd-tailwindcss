@@ -20,13 +20,19 @@ For base css style, you can go to [TailwindCSS](https://tailwindcss.com/) docume
 
 ### Getting Started
 
-First, install dependencies and rename the env local example:
+Before getting started, you can clone this project or run following command:
+
+```bash
+yarn create next-app --example https://github.com/madebyais/nextjs-antd-tailwindcss
+```
+
+Afterward, install dependencies and rename the env local example:
 
 ```bash
 yarn install && mv .env.local.example .env.local
 ```
 
-Second, run the development server:
+And run the development server:
 
 ```bash
 npm run dev
