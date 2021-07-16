@@ -18,6 +18,10 @@ For base css style, you can go to [TailwindCSS](https://tailwindcss.com/) docume
 - Login using Google
 - Login using Facebook
 
+#### Navigation Bar
+- 4 plug-n-play top navigation bar types
+- 1 plug-n-play footer
+
 ### Getting Started
 
 Before getting started, you can clone this project or run following command:
@@ -41,6 +45,10 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Component Preview
+
+After you run the dev server, you can access [http://localhost:3000/components](http://localhost:3000/components) to preview plug-n-play components included in this project. Or you can access to `pages/components` to view more detail in code.
 
 ### Custom Theme
 
