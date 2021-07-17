@@ -26,7 +26,7 @@ const LayoutComponentPreview: FC = ({ children }) => {
 }
 
 const Menu = ({ title, href }: any) => (
-  <Link href={href}>
+  <Link href={href} passHref>
     <div className={`cursor-pointer block mb-2`}>{title}</div>
   </Link>
 )

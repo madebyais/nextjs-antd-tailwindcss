@@ -2,7 +2,7 @@ import type {NextApiRequest, NextApiResponse} from "next";
 import constant from "../../../../common/constant";
 import Fetch from "../../../../util/fetch";
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+const OauthProviderCallback = async (req: NextApiRequest, res: NextApiResponse) => {
   const { code, provider } = req.query
   let account = {}
 
@@ -63,3 +63,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   // Recommend to redirect to your dashboard page
   res.status(200).json(account)
 }
+
+export default OauthProviderCallback

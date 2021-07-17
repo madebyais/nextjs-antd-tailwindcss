@@ -8,7 +8,7 @@ const Header1 = () => (
       develop your product faster and launch sooner.
     </div>
     <div className={`text-lg text-center`}>
-      Trust me, you'll thank me later.<br/>
+      Trust me, you&apos;ll thank me later.<br/>
       =9
     </div>
   </div>

@@ -10,6 +10,7 @@ interface ISvgImageProps {
 const SvgImage: FC<ISvgImageProps> = ({ src, width= 300, height= 300 }) => (
   <>
     <Image
+      alt={`illustration for ${src}`}
       src={`/assets/svg/undraw_${src}.svg`}
       width={width}
       height={height} />

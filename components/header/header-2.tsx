@@ -12,7 +12,7 @@ const Header2 = () => (
           develop your product faster and launch sooner.
         </div>
         <div className={`text-lg`}>
-          Trust me, you'll thank me later.<br/>
+          Trust me, you&apos;ll thank me later.<br/>
           =9
         </div>
       </div>

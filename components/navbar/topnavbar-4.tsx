@@ -3,11 +3,11 @@ import Link from "next/link";
 import { useState } from "react";
 
 const MenuPrimary = ({ label, href }: any) => (
-  <div className={`mb-5 md:mb-0 md:ml-10`}><Link href={href}>{label}</Link></div>
+  <div className={`mb-5 md:mb-0 md:ml-10`}><Link href={href} passHref>{label}</Link></div>
 )
 
 const MenuSecondary = ({ label, href }: any) => (
-  <div className={`mb-5 md:mb-0 md:mr-5 text-xs`}><Link href={href}>{label}</Link></div>
+  <div className={`mb-5 md:mb-0 md:mr-5 text-xs`}><Link href={href} passHref>{label}</Link></div>
 )
 
 const TopNavBar4 = () => {
@@ -23,9 +23,9 @@ const TopNavBar4 = () => {
           <MenuSecondary label={`Pricing`} href={`/`} />
         </div>
         <div className={`md:flex md:justify-end md:items-center`}>
-          <Link href={`/`}><i className={`cursor-pointer fa fa-facebook mr-5`} /></Link>
-          <Link href={`/`}><i className={`cursor-pointer fa fa-twitter mr-5`} /></Link>
-          <Link href={`/`}><i className={`cursor-pointer fa fa-instagram`} /></Link>
+          <Link href={`/`} passHref><i className={`cursor-pointer fa fa-facebook mr-5`} /></Link>
+          <Link href={`/`} passHref><i className={`cursor-pointer fa fa-twitter mr-5`} /></Link>
+          <Link href={`/`} passHref><i className={`cursor-pointer fa fa-instagram`} /></Link>
         </div>
       </div>
       <div className={`container mx-auto flex justify-between items-center p-5 md:px-0`}>

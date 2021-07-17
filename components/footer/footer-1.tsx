@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const SocialMediaLink = ({ icon, href }: any) => (
-  <Link href={href}>
+  <Link href={href} passHref>
     <i className={`fa fa-${icon} mr-5`} />
   </Link>
 )
@@ -11,7 +11,7 @@ const MenuTitle = ({ title }: any) => (
 )
 
 const Menu = ({ title, href }: any) => (
-  <Link href={href}>
+  <Link href={href} passHref>
     <div className={`block mb-2`}>{title}</div>
   </Link>
 )

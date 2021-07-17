@@ -65,13 +65,13 @@ const Login: NextPage<ILoginProps> = ({
 export async function getStaticProps() {
   return {
     props: {
-      GoogleClientId: process.env.GOOGLE_CLIENT_ID,
-      GoogleRedirectUri: process.env.GOOGLE_REDIRECT_URI,
-      GoogleOauthScope: process.env.GOOGLE_OAUTH_SCOPE,
+      GoogleClientId: process.env.GOOGLE_CLIENT_ID || '',
+      GoogleRedirectUri: process.env.GOOGLE_REDIRECT_URI || '',
+      GoogleOauthScope: process.env.GOOGLE_OAUTH_SCOPE || '',
 
-      FacebookClientId: process.env.FACEBOOK_CLIENT_ID,
-      FacebookRedirectUri: process.env.FACEBOOK_REDIRECT_URI,
-      FacebookOauthScope: process.env.FACEBOOK_OAUTH_SCOPE,
+      FacebookClientId: process.env.FACEBOOK_CLIENT_ID || '',
+      FacebookRedirectUri: process.env.FACEBOOK_REDIRECT_URI || '',
+      FacebookOauthScope: process.env.FACEBOOK_OAUTH_SCOPE || '',
     }
   }
 }
