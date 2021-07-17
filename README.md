@@ -19,8 +19,11 @@ For base css style, you can go to [TailwindCSS](https://tailwindcss.com/) docume
 - Login using Facebook
 
 #### Navigation Bar
-- 4 plug-n-play top navigation bar types
-- 1 plug-n-play footer
+- 4 plug-n-play top navigation bar components
+- 1 plug-n-play footer component
+
+#### Header
+- 2 plug-n-play header components
 
 ### Getting Started
 
