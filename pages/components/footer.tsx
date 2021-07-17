@@ -1,7 +1,7 @@
 import { Footer1 } from "components/footer";
 import LayoutComponentPreview from "./_layout";
 
-export default function HeaderPreviewPage() {
+export default function FooterPreviewPage() {
   return (
     <LayoutComponentPreview>
       <div className={`mb-10 text-lg font-bold uppercase`}>Footer</div>

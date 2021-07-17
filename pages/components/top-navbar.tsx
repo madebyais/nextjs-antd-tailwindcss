@@ -1,7 +1,7 @@
 import { TopNavBar1, TopNavBar2, TopNavBar3, TopNavBar4 } from "components/navbar";
 import LayoutComponentPreview from "./_layout";
 
-export default function HeaderPreviewPage() {
+export default function TopNavbarPreviewPage() {
   return (
     <LayoutComponentPreview>
       <div className={`mb-10 text-lg font-bold uppercase`}>Top Navigation Bar</div>

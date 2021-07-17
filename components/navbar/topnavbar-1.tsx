@@ -11,7 +11,7 @@ const TopNavBar1 = () => {
 
   return (
     <div className={`w-full border-b`}>
-      <div className={`container mx-auto flex justify-between items-center p-5 md:px-0 py-5`}>
+      <div className={`container mx-auto flex justify-between items-center p-5 md:px-0`}>
         <div>Logo</div>
         <div className={`hidden md:block md:flex md:justify-end md:items-center`}>
           <Menu label={`Home`} href={`/`} />

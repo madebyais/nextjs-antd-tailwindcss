@@ -14,6 +14,8 @@ const LayoutComponentPreview: FC = ({ children }) => {
           <div className={`font-bold uppercase mb-10`}>Component Preview</div>
           <Menu title={`Top Navigation Bar`} href={`/components/top-navbar`} />
           <Menu title={`Footer`} href={`/components/footer`} />
+          <br/>
+          <Menu title={`Header`} href={`/components/header`} />
         </div>
         <div className={`h-screen col-span-7 p-5 overflow-y-scroll`}>
           {children}
