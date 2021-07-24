@@ -25,6 +25,9 @@ For base css style, you can go to [TailwindCSS](https://tailwindcss.com/) docume
 #### Header
 - 2 plug-n-play header components
 
+#### Others
+- Google Analytics
+
 ### Getting Started
 
 Before getting started, you can clone this project or run following command:
