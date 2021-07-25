@@ -1,6 +1,6 @@
 {
   "name": "nextjs-antd-tailwindcss",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "scripts": {
     "less-compile": "./node_modules/.bin/lessc --js ./styles/style.less ./styles/style.css",
