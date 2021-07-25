@@ -1,0 +1,1 @@
+export {default as ProductThumbnail1} from './product-thumbnail-1'

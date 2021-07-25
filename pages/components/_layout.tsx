@@ -9,15 +9,22 @@ const LayoutComponentPreview: FC = ({ children }) => {
         <title>Component Preview</title>
       </Head>
 
-      <main className={`grid grid-cols-8`}>
-        <div className={`bg-white h-screen col-span-1 p-5 border-r`}>
-          <div className={`font-bold uppercase mb-10`}>Component Preview</div>
-          <Menu title={`Top Navigation Bar`} href={`/components/top-navbar`} />
-          <Menu title={`Footer`} href={`/components/footer`} />
-          <br/>
-          <Menu title={`Header`} href={`/components/header`} />
+      <main>
+        <div className={`hidden md:block md:grid md:grid-cols-8`}>
+          <div className={`bg-white h-screen col-span-1 p-5 border-r`}>
+            <div className={`font-bold uppercase mb-10`}>Component Preview</div>
+            <Menu title={`Top Navigation Bar`} href={`/components/top-navbar`} />
+            <Menu title={`Header`} href={`/components/header`} />
+            <Menu title={`Footer`} href={`/components/footer`} />
+            <br/>
+            <Menu title={`E-commerce`} href={`/components/e-commerce`} />
+          </div>
+          <div className={`h-screen col-span-7 p-5 overflow-y-scroll`}>
+            {children}
+          </div>
         </div>
-        <div className={`h-screen col-span-7 p-5 overflow-y-scroll`}>
+
+        <div className={`w-full block p-5 md:hidden`}>
           {children}
         </div>
       </main>
