@@ -18,6 +18,7 @@ const LayoutComponentPreview: FC = ({ children }) => {
             <Menu title={`Footer`} href={`/components/footer`} />
             <br/>
             <Menu title={`E-commerce`} href={`/components/e-commerce`} />
+            <Menu title={`Features`} href={`/components/feature`} />
           </div>
           <div className={`h-screen col-span-7 p-5 overflow-y-scroll`}>
             {children}

@@ -1,3 +1,8 @@
+## 0.7.0
+
+- Added new component for feature ([d44b76](https://github.com/madebyais/nextjs-antd-tailwindcss/commit/d44b762f4a18e9086e1f9350626d1c656c8226c1))
+
+
 ## 0.6.0
 
 - Added new component for e-commerce
