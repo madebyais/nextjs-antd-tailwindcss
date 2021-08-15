@@ -1,6 +1,6 @@
 ## 0.7.0
 
-- Added new component for feature ([d44b76](https://github.com/madebyais/nextjs-antd-tailwindcss/commit/d44b762f4a18e9086e1f9350626d1c656c8226c1))
+- Added new component for feature ([aceadd2](https://github.com/madebyais/nextjs-antd-tailwindcss/commit/aceadd2d62bfba2e26ea1d70c4186b6be7240e87))
 
 
 ## 0.6.0
