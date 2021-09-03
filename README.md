@@ -1,3 +1,9 @@
+This project will be in hiatus mode for sometime. 
+
+Why? Currently I'm creating a product that gonna be launch soon and it is inspired when I'm working on this open source project. So stay tuned!
+
+So, see you when I see you. :)
+
 # nextjs-antd-tailwind
 
 This is a nextjs-antd-tailwindcss starter pack to ease your NextJS 11 development.
